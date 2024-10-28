@@ -1,34 +1,55 @@
-/* General Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Software Engineer | Your Specialization</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Brief introduction about yourself, your skills, and your interests.</p>
+    </section>
 
-/* Header Styles */
-header {
-    background: #1a1a1a;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project Title 1</h3>
+                <p>A brief description of the project. <a href="link-to-project">View Project</a></p>
+            </li>
+            <li>
+                <h3>Project Title 2</h3>
+                <p>A brief description of the project. <a href="link-to-project">View Project</a></p>
+            </li>
+            <li>
+                <h3>Project Title 3</h3>
+                <p>A brief description of the project. <a href="link-to-project">View Project</a></p>
+            </li>
+        </ul>
+    </section>
 
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="your-linkedin-profile">Your LinkedIn</a></p>
+    </section>
 
-p {
-    font-size: 1.2rem;
-}
-
-/* Navigation Styles */
-nav ul
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
