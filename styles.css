@@ -8,13 +8,14 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #1c1c1c; /* Dark grey background */
-    color: #e0e0e0; /* Light grey text */
+    background-color: #f7f7f7; /* Light grey background */
+    color: #333; /* Dark grey text */
 }
 
 /* Header Styles */
 header {
-    background: #333; /* Darker grey header */
+    background: #444; /* Dark grey header */
+    color: #ffffff;
     padding: 40px 0;
     text-align: center;
 }
@@ -40,13 +41,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffcc00; /* Bright yellow for links */
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ffc107; /* Slightly lighter on hover */
+    color: #ffcc00; /* Accent color on hover */
 }
 
 /* Section Styles */
@@ -54,15 +55,15 @@ section {
     padding: 40px;
     margin: 20px auto;
     max-width: 800px;
-    background: #2a2a2a; /* Medium grey for sections */
+    background: #ffffff; /* White sections */
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    border-bottom: 2px solid #ffcc00; /* Underline for section titles */
+    border-bottom: 2px solid #444; /* Underline for section titles */
     padding-bottom: 10px;
 }
 
@@ -77,7 +78,7 @@ li {
 
 li h3 {
     font-size: 1.5rem;
-    color: #ffcc00; /* Bright yellow for project titles */
+    color: #444; /* Dark grey for project titles */
 }
 
 li p {
@@ -87,7 +88,7 @@ li p {
 
 /* Link Styles */
 a {
-    color: #ffcc00; /* Consistent link color */
+    color: #007acc; /* Blue links */
     text-decoration: none;
 }
 
@@ -99,8 +100,8 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #333; /* Darker grey footer */
-    color: #e0e0e0;
+    background: #444; /* Dark grey footer */
+    color: #ffffff;
 }
 
 /* Responsive Styles */
@@ -110,11 +111,4 @@ footer {
     }
 
     h2 {
-        font-size: 1.5rem;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
+        
