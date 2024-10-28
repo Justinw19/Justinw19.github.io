@@ -8,14 +8,13 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #1c1c1c; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #007acc, #00c6ff);
-    color: #ffffff;
+    background: #333; /* Darker grey header */
     padding: 40px 0;
     text-align: center;
 }
@@ -41,13 +40,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #ffcc00; /* Bright yellow for links */
     text-decoration: none;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: #ffc107; /* Slightly lighter on hover */
 }
 
 /* Section Styles */
@@ -55,10 +54,67 @@ section {
     padding: 40px;
     margin: 20px auto;
     max-width: 800px;
-    background: #ffffff;
+    background: #2a2a2a; /* Medium grey for sections */
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
-    font-s
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffcc00; /* Underline for section titles */
+    padding-bottom: 10px;
+}
+
+/* Project List Styles */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li h3 {
+    font-size: 1.5rem;
+    color: #ffcc00; /* Bright yellow for project titles */
+}
+
+li p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Link Styles */
+a {
+    color: #ffcc00; /* Consistent link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333; /* Darker grey footer */
+    color: #e0e0e0;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
