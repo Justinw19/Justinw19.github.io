@@ -1,30 +1,31 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-    color: #333;
+    background-color: #0d0d0d;
+    color: #e6e6e6;
     line-height: 1.6;
 }
 
 a {
     text-decoration: none;
-    color: #007acc;
-    transition: color 0.3s, border-bottom 0.3s;
+    color: #00ff00;
+    transition: color 0.3s, text-shadow 0.3s;
 }
 
 a:hover {
-    color: #005fa3;
-    border-bottom: 2px solid #005fa3;
+    color: #00cc00;
+    text-shadow: 0 0 10px #00cc00, 0 0 20px #00cc00;
 }
 
 /* Header */
 header {
-    background-color: #24292e;
-    color: #ffffff;
+    background-color: #1a1a1a;
+    color: #e6e6e6;
     padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #00ff00;
 }
 
 h1 {
@@ -58,67 +59,3 @@ main {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.portfolio-item {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.portfolio-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-
-.portfolio-item img {
-    width: 100%;
-    height: auto;
-}
-
-.portfolio-item h3 {
-    padding: 10px;
-    font-size: 1.25rem;
-    text-align: center;
-}
-
-/* Code Snippet Styles */
-.code-snippet {
-    background-color: #282c34;
-    color: #61dafb;
-    padding: 15px;
-    border-radius: 5px;
-    overflow-x: auto;
-    margin: 20px 0;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-/* Footer */
-footer {
-    background-color: #24292e;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.25rem;
-    }
-    
-    .portfolio {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
-}
