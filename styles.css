@@ -3,28 +3,27 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     color: #333333;
     line-height: 1.6;
 }
 
-a {
-    text-decoration: none;
-    color: #007acc;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #005fa3;
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
 /* Header */
 header {
-    background-color: #f8f8f8;
-    color: #333333;
+    background-color: #007acc;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #e0e0e0;
+    border-radius: 5px;
 }
 
 h1 {
@@ -40,8 +39,39 @@ h2 {
 /* Navigation */
 nav {
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
     margin: 0 15px;
-    font-
+    font-weight: bold;
+    color: #007acc;
+}
+
+nav a:hover {
+    color: #005fa3;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Portfolio Section */
+.portfolio {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-c
