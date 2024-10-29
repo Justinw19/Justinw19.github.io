@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light background */
+    background-color: #f0e6d6; /* Eggshell background */
     color: #333333; /* Dark text for readability */
     line-height: 1.6;
 }
@@ -27,3 +27,16 @@ header {
 
 h1 {
     font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+    display: flex;
+    justify-c
