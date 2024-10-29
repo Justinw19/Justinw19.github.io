@@ -1,17 +1,15 @@
 /* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Dark grey background */
-    color: #ffffff; /* White text */
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333333; /* Dark text */
     line-height: 1.6;
 }
 
 /* Container */
 .container {
-    display: flex;
-    flex-direction: column;
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -19,11 +17,13 @@ body {
 
 /* Header */
 header {
-    background-color: #333333; /* Darker grey */
-    color: #ffffff;
+    background-color: #ffffff; /* White background */
+    color: #333333;
     padding: 20px;
     text-align: center;
+    border: 1px solid #ddd; /* Light border */
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -41,6 +41,12 @@ nav {
     margin-top: 15px;
     display: flex;
     justify-content: center;
-    background-color: #444444; /* Slightly lighter grey */
+    background-color: #ffffff; /* White background */
     padding: 10px;
-    border-radius: 5px
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    font-
