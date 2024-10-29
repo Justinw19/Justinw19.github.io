@@ -1,33 +1,77 @@
-/* Global Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Light background */
-    color: #333; /* Dark text */
-    line-height: 1.6;
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    min-height: 100vh; /* Full viewport height */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Complex Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-/* Container */
-.container {
-    max-width: 800px; /* Set max width for content */
-    width: 100%; /* Full width */
-    padding: 20px;
-    background-color: #ffffff; /* White background for content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-}
+    <main class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Your biography or personal statement goes here. Describe your background, experience, and what you're passionate about.</p>
+        </section>
 
-/* Header */
-header {
-    background-color: #333; /* Dark gray */
-    color: #ffffff; /* White text */
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
-}
+        <section class="section" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Short description of the project.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Short description of the project.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Short description of the project.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project4.jpg" alt="Project 4">
+                    <h3>Project Title 4</h3>
+                    <p>Short description of the project.</p>
+                </div>
+            </div>
+        </section>
 
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Node.js</div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through email or LinkedIn.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
