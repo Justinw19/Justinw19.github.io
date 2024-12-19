@@ -47,6 +47,7 @@ nav ul li a {
     color: #61dafb;
     text-decoration: none;
     transition: color 0.3s;
+    font-size: 1rem; /* Adjust this value as needed */
 }
 
 nav ul li a:hover {
