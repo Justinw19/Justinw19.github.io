@@ -29,7 +29,7 @@ h1 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 /* Navigation Styles */
@@ -47,7 +47,7 @@ nav ul li a {
     color: #61dafb;
     text-decoration: none;
     transition: color 0.3s;
-    font-size: 1.2rem; /* Adjust this value as needed */
+    font-size: 1.1rem; /* Adjust this value as needed */
 }
 
 nav ul li a:hover {
